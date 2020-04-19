@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-between align-items-center">
+          Descarga de YouTube <a href="trabajos/editar/_i"></a>
+        </h4>
+          
+        <form action="" method="POST">
+          <div class="form-group">
+            <label for="nombre">Nombre para la cancion</label>
+            <input required type="text" name="nombre" id="nombre" class="form-control">
+
+            <label for="artista">Nombre del artista</label>
+            <input required type="text" name="artista" id="artista" class="form-control">
+
+            <label for="link">Buscar en youtube</label>
+            <input type="text" required name="link" id="link" class="form-control">
+            <button type="submit" class="btn btn-primary btn-block btn-sm">Descargar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-between align-items-center">
+          titulo <a href="trabajos/editar/_i"><i class="fas fa-edit"></i></a>
+        </h4>
+        <p>descripcion  </p>
+        <form action="/trabajos/borrar/i?_method=DELETE" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <button type="submit" class="btn btn-danger btn-block btn-sm">Borrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

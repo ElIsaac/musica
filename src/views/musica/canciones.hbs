@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title d-flex justify-content-between align-items-center">
+          titulo <a href="trabajos/editar/_i"><i class="fas fa-edit"></i></a>
+        </h4>
+        <p>descripcion  </p>
+        <!-- DELETE REQUEST -->
+        <form action="/trabajos/borrar/i?_method=DELETE" method="POST">
+          <input type="hidden" name="_method" value="DELETE">
+          <button type="submit" class="btn btn-danger btn-block btn-sm">Borrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!--   <div class="card mx-auto">
+    <div class="card-body">
+      <h1>Bienvenido</h1>
+      <p clsss="lead">haga click en "comenzar" para registrar sus trabajos</p>
+      <a href="/agregarMusica" class="btn btn-success btn-block">Comenzar</a>
+    </div>
+  </div> -->

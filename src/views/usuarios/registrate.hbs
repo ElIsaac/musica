@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-md-4 mx-auto">
+    <div class="card">
+      <div class="card-header">
+        Registrate
+      </div>
+      <div class="card-body">
+        <form action="/registrate" method="POST">
+          <div class="form-group">
+            <input type="text" class="form-control" name="nombre" placeholder="nombre" value="{{nombre}}">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Email" value="{{email}}">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" name="contrasenia" placeholder="contrasenia" value="{{contrasenia}}">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" name="confirmaContrasenia" placeholder="Confirme contrasenia" value="{{confirmaContrasenia}}">
+          </div>
+          <button class="btn btn-primary btn-block">
+            Signup 
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

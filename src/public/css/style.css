@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background: url(../img/musica.jpg) no-repeat  center top;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+.transparente{
+    color: #ffffff;
+    font-size: 100px;
+}
